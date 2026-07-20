@@ -37,4 +37,4 @@ view = gr.Interface(
         ],
     flagging_mode="never"
     )
-view.launch()
+view.launch(inbrowser=True)
